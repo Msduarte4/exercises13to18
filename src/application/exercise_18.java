@@ -16,10 +16,12 @@ public class exercise_18 {
 		char answer = '\0';
 
 		do {
+			//lendo valores para o vetor
 			System.out.println("Entre um valor inteiro: ");
 			int num = sc.nextInt();
 			vec.add(num);
 			System.out.println("");
+			//quantidade de valores para o vetor/ param ao inserir 'n'
 			System.out.println("digite 'n' para encerrar o programa ou entre outro caractere para continuar!");
 			answer = sc.next().charAt(0);
 			System.out.println("");

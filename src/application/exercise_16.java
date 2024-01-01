@@ -19,12 +19,13 @@ public class exercise_16 {
 			double grade = sc.nextFloat();
 			System.out.println("entre peso " + cont + ": ");
 			double w = sc.nextFloat();
-
+//soma da notas vezes os seus pesos
 			sum = sum + grade * w;
+			//soma dos pesos das notas
 			sumW = sumW + w;
 
 		}
-
+//imprime a media ponderada atraves de sua respectiva formula
 		System.out.printf("%.2f%n", sum / sumW);
 
 		sc.close();

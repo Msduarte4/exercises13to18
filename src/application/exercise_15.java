@@ -48,7 +48,7 @@ public class exercise_15 {
 		String trimmedLetter = letter.trim();
 		char first = trimmedLetter.charAt(0);
 
-		// chamando funcao de substituicao
+		// chamando funcao de contagem de caractere
 		countCharacter(trimmedStr, first);
 		sc.close();
 	}

@@ -13,7 +13,7 @@ public class exercise_14 {
 		double base = sc.nextFloat();
 		System.out.println("Entre o exponente da potencia: ");
 		double exponent = sc.nextFloat();
-
+//usando math.pow para o calculo potencia
 		double result = Math.pow(base, exponent);
 
 		System.out.printf("%.2f%n", result);

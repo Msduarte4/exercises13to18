@@ -12,6 +12,7 @@ public class exercise_17 {
 
 		System.out.println("Entre uma palavra: ");
 		String str = sc.nextLine();
+		//usando trim para remover os whitespaces pre and pos string
 		String trimmedstr = str.trim();
 		System.out.println(trimmedstr);
 
